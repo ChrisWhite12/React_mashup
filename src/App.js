@@ -1,14 +1,20 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import Canvas from "./components/Canvas";
 import YellingGreeter from './components/YellingGreeter'
 import CookieClicker from './components/CookieClicker';
 import LoginControl from './components/Login';
 import Movie from './components/Movie';
 import Nav from './components/Nav';
+import DynaForm from './components/DynaForm';
+import Bitcoin from './components/Bitcoin';
+import TipCal from './components/TipCal';
+
 import "./App.css";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import DynaForm from './components/DynaForm';
+
+
+
 
 const Home = () => {
   return(
@@ -17,6 +23,7 @@ const Home = () => {
   </div>
   )
 }
+
 
 function App() {
   return (
@@ -31,8 +38,9 @@ function App() {
             <Route path="/canvas" component={Canvas} />
             <Route path="/movie" component={Movie} />
             <Route path="/dynaform" component={DynaForm} />
+            <Route path="/bitcoin" component={Bitcoin} />
+            <Route path="/tipcal" component={TipCal} />
           </Switch>
-          <LoginControl />
         </div>
       </Router>
   );

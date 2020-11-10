@@ -34,11 +34,6 @@
   justify-content: center;
 }
 
-.App_main div{
-  border: 2px solid black;
-  margin: 10px;
-}
-
 nav{
   display: flex;
   justify-content: space-around;
@@ -64,4 +59,22 @@ nav{
   to {
     transform: rotate(360deg);
   }
+}
+
+#cal_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 50vw;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+#cal_grid p{
+  border: 2px solid black;
+  height: 100%;
+}
+.highlight{
+  background-color: yellow;
 }

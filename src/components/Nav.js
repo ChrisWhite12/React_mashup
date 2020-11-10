@@ -20,6 +20,12 @@ function Nav() {
                 <Link to="/dynaform">
                     <li>DynaForm</li>
                 </Link>
+                <Link to="/bitcoin">
+                    <li>Bitcoin</li>
+                </Link>
+                <Link to="/tipcal">
+                    <li>TipCal</li>
+                </Link>
             </ul>
         </nav>
     )
