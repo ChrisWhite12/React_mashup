@@ -26,6 +26,9 @@ function Nav() {
                 <Link to="/tipcal">
                     <li>TipCal</li>
                 </Link>
+                <Link to="/todo">
+                    <li>ToDo</li>
+                </Link>
             </ul>
         </nav>
     )

@@ -1,19 +1,16 @@
+import "./App.css";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import React, { useState } from 'react'
 import Canvas from "./components/Canvas";
 import YellingGreeter from './components/YellingGreeter'
 import CookieClicker from './components/CookieClicker';
-import LoginControl from './components/Login';
 import Movie from './components/Movie';
 import Nav from './components/Nav';
 import DynaForm from './components/DynaForm';
 import Bitcoin from './components/Bitcoin';
 import TipCal from './components/TipCal';
-
-import "./App.css";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
-
+import ToDoList from './components/ToDoList';
 
 
 const Home = () => {
@@ -40,6 +37,8 @@ function App() {
             <Route path="/dynaform" component={DynaForm} />
             <Route path="/bitcoin" component={Bitcoin} />
             <Route path="/tipcal" component={TipCal} />
+            <Route path="/todo" component={ToDoList} />
+            
           </Switch>
         </div>
       </Router>
