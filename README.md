@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# React Mashup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is a collection of all exercises done in the React part of the Coder Academy course. To start the app, install the packages using 'npm i' and type the command 'npm start'.
 
-## Available Scripts
+## Yeller
 
-In the project directory, you can run:
+A simple react app that changes the text to a uppercase version of what is submitted.
+## Cookie Clicker
 
-### `npm start`
+A react app that uses state to keep track of number of times a button is pressed. Also, there is a timer that increases the score variable. If the 'Increase auto increment' is pressed the score is reduced by 100 and increases the increment by 10.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Canvas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A react app that combines components Canvas, ColorSelector, Plaque and handles passing of information. ColorSelector passes a callback to the Canvas when its color is changed. The Plaque updates itself when text is inputted.
+## Movie
 
-### `npm test`
+A react app that adds movies to a list and displays it when input is submitted.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## DynaForm
 
-### `npm run build`
+A react app with a dynamic form. When 'add field' is pressed the form adds a new input field and remove button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Bitcoin
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A react app that displays the bitcoin data for a selected currency. The API is called when the option is selected.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## TipCal
 
-### `npm run eject`
+A react app for tip calculation. The subtotal is inputted by clicking the numbers and updates the tip calculation and total amount. The tip amount can also be selected by clicking and it updates the amounts.
+## ToDo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A react app for a To Do list. The items are inputted by clicking create new item and appended to a list. The list items can be crossed off by clicking the checkbox or removed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Clock
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A react app that displays a clock of the current location. The component is updated every second with a timer and changes the clock hands.
