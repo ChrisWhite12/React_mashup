@@ -29,6 +29,9 @@ function Nav() {
                 <Link to="/todo">
                     <li>ToDo</li>
                 </Link>
+                <Link to="/clock">
+                    <li>Clock</li>
+                </Link>
             </ul>
         </nav>
     )

@@ -11,6 +11,7 @@ import DynaForm from './components/DynaForm';
 import Bitcoin from './components/Bitcoin';
 import TipCal from './components/TipCal';
 import ToDoList from './components/ToDoList';
+import Clock from "./components/Clock";
 
 
 const Home = () => {
@@ -38,6 +39,7 @@ function App() {
             <Route path="/bitcoin" component={Bitcoin} />
             <Route path="/tipcal" component={TipCal} />
             <Route path="/todo" component={ToDoList} />
+            <Route path="/clock" render={ props => <Clock date={new Date()} />} />
             
           </Switch>
         </div>
